@@ -78,20 +78,18 @@
             <div align="top" class="typing-demo">
 			<h3>descrição</h3>
 			<ul>
-              <li>aqui contem todas as pastas com as atividades do curso de java</li>
-              <li>treinos de java com finalidade e refinar o conhecimento </li>
-              <li>realizado para aprender java</li>
-			  <li></li>
+              <li>aqui contem algoritmos uteis de python</li>
+              <li>treinos de python com finalidade e refinar o conhecimento </li>
+              <li>realizado para aprender python e tratamentos</li>
+			  <li>algoritmos de ias e analise de dados</li>
 			</ul>  
               <h3>requisitos</h3>
              <ul>
-              <li>instalar um complidor java</li>
-              <li>instalar um JDK</li>
-	      <li>eclipse</li>     
-	      <li>vscode</li>
-	      <li>executar projeto terminal:</li>
-	      <li>javac (nome da classe).java</li>
-	      <li>java (nome da classe)</li>
+              <li>sabe utilizar um notebook python</li>
+              <li>copiar e colocar o codigo nos ide online</li>
+	      <li>colab notebook</li>     
+	      <li>jupiter notebook</li>
+	      
 	      
 	      
 	     

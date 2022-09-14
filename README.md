@@ -5,7 +5,8 @@
 &nbsp;
 
 <div style="display: inline_block"><br>
-  <img align="center" alt="J" height="70" width="100" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg">
+  <img align="center" alt="py" height="70" width="100" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg">
+  <img align="center" alt="note" height="70" width="100" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original-wordmark.svg">
  
 
   
