@@ -12,32 +12,36 @@ import signal
 import time
 import sys
 
-numero = random.randrange(1, 30)
+numero = random.randrange(1, 100)
 
 
-print('Chute um número entre 1 e 30.')
+print('Chute um número entre 1 e 100.')
 chute = int(input())
 chuteanta=1
 chuteantb=30
 ctd= 0
-while (type(chute) == int) and (chute < 31) and (chute > 0) and ctd < 7:
+while (type(chute) == int) and (chute < 100) and (chute > 0) and ctd < 10:
 
   if chute < numero:
     ctd=ctd+1
     print('Seu chute foi muito baixo.')
-    print("Tente outro número entre %d e %d... voce tentou %d vezes voce tem mais %d chances" %(chute,chuteantb,ctd,8-ctd))
+    print("Tente outro número entre %d e %d... voce tentou %d vezes voce tem mais %d chances" %(chute,chuteantb,ctd,10-ctd))
     chuteanta = chute
     chute = int(input())
      
   elif chute > numero:
     ctd=ctd+1
     print('Seu chute foi muito alto.')
-    print("Tente outro número entre %d e %d... voce tentou %d vezes voce tem mais %d chances" %(chuteanta,chute,ctd,8-ctd))
+    print("Tente outro número entre %d e %d... voce tentou %d vezes voce tem mais %d chances" %(chuteanta,chute,ctd,10-ctd))
     chuteantb=chute
     chute = int(input())
-    
-  else:
+
+  elif chute == numero:
     print(f'Ótimo! Acertou o número {numero}')
+    break  
+
+  else:
+    print(f'ótimo voce é uma mula não consegue acertar um numero')
     break
 
 if (type(chute) != int) or (chute >= 31) or (chute <= 0):
